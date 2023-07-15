@@ -1,6 +1,6 @@
-# WE4B Project - Hi-tech Site - Installation Guide
+# Project - Hi-tech Site - Installation Guide
 
-This guide will explain how to install and run our WE4B project, a marketplace website for tech products.
+This guide will explain how to install and run this project, a marketplace website for tech products.
 
 ## Installation Steps
 
