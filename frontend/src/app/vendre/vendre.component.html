@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <form>
+          <h2>Proposer un article à vendre</h2>
+  
+          <div class="mb-3">
+            <label for="product-name">Nom du produit :</label>
+            <input type="text" class="form-control" id="product-name" [(ngModel)]="product.name" name="name" placeholder="Entrez le nom du produit" />
+          </div>
+  
+          <div class="mb-3">
+            <label for="product-category" class="form-label">Catégorie</label>
+            <input type="text" class="form-control" id="product-category" [(ngModel)]="product.category" name="category" placeholder="Entrez la catégorie">
+          </div>
+  
+          <div class="mb-3">
+            <label for="product-description" class="form-label">Description</label>
+            <textarea class="form-control" id="product-description" [(ngModel)]="product.description" name="description" placeholder="Entrez la description"></textarea>
+          </div>
+  
+          <div class="mb-3">
+            <label for="product-image" class="form-label">Image</label>
+            <input type="file" class="form-control" id="product-image" [(ngModel)]="product.image" name="image" placeholder="Sélectionnez une image">
+          </div>
+  
+          <div class="mb-3">
+            <label for="product-name" class="form-label">Stock Disponible</label>
+            <input type="number" class="form-control" id="product-name" [(ngModel)]="product.stock" name="stock" placeholder="Entrez le nom du produit">
+          </div>
+  
+          <div class="mb-3">
+            <label for="product-brand" class="form-label">Marque</label>
+            <input type="text" class="form-control" id="product-brand" [(ngModel)]="product.brand" name="brand" placeholder="Entrez la marque du produit">
+          </div>
+  
+            
+          <div class="mb-3">
+            <label for="product-price" class="form-label">Prix</label>
+            <input type="number" class="form-control" id="product-price" [(ngModel)]="product.price" name="price" placeholder="Entrez le prix du produit">
+          </div>
+  
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" (click)="addProduct()" class="nav-link" routerLink="/">Mettre en ligne</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,64 @@
+
+<br><br>
+<div class="text-center">
+    <h1>Créer un Compte</h1>
+</div>
+<div class="custom-container">
+    <div class="col-sm-4 custom-form">
+      <div class="mb-3 row">
+        <label for="FirstName" class="col-sm-4 col-form-label">Prénom</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="FirstName" [(ngModel)]="user.firstname">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="LastName" class="col-sm-4 col-form-label">Nom</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="LastName" [(ngModel)]="user.lastname">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="UserName" class="col-sm-4 col-form-label">Username</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="UserName" [(ngModel)]="user.username">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="Email" class="col-sm-4 col-form-label">Mail</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="Email" [(ngModel)]="user.email">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-4 col-form-label">Mot de passe</label>
+        <div class="col-sm-8">
+          <input type="password" class="form-control" id="inputPassword" [(ngModel)]="user.password">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="confirmPassword" class="col-sm-4 col-form-label">Confirmation</label>
+        <div class="col-sm-8">
+          <input type="password" class="form-control" id="confirmPassword">
+        </div>
+      </div>
+      <br>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="fonctionnalite" value="acheteur" id="fonctionnalite1" [(ngModel)]="user.fonctionnalite">
+        <label class="form-check-label" for="fonctionnalite1">
+          Acheteur (l'acheteur ne peut qu'acheter sur le site)
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="fonctionnalite" value="vendeur" id="fonctionnalite2" [(ngModel)]="user.fonctionnalite" checked>
+        <label class="form-check-label" for="fonctionnalite2">
+          Vendeur (le vendeur peut à la fois achter mais poster des produits pour les vendre)
+        </label>
+      </div>
+      <br>
+      <div class="mb-3 row">
+        <div class="justify-content-center text-center">
+          <button type="submit" class="btn btn-primary" (click)="createAccount()">Créer</button>
+        </div>
+      </div>
+    </div>
+  </div>

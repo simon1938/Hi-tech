@@ -1,0 +1,244 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstname": "Aubin",
+      "lastname": "Bonnefoy",
+      "username": "aubin",
+      "email": "aubin.bonnefoy@utbm.fr",
+      "password": "mdpaubin",
+      "fonctionnalite": "vendeur"
+    },
+    {
+      "id": 2,
+      "firstname": "Corentin",
+      "lastname": "Durupt",
+      "username": "corentin",
+      "email": "corentin.durupt@utbm.fr",
+      "password": "mdpcorentin",
+      "fonctionnalite": "vendeur"
+    },
+    {
+      "id": 3,
+      "firstname": "toto",
+      "lastname": "dupont",
+      "username": "toto90",
+      "email": "toto@mail.com",
+      "password": "azerty",
+      "fonctionnalite": "acheteur"
+    },
+    {
+      "id": 4,
+      "firstname": "Robert",
+      "lastname": "Hakobyan",
+      "username": "robert",
+      "email": "sdfgertb",
+      "password": "robert",
+      "fonctionnalite": "acheteur"
+    },
+    {
+      "id": 5,
+      "firstname": "s",
+      "lastname": "s",
+      "username": "s",
+      "email": "s@s",
+      "password": "s",
+      "fonctionnalite": "acheteur"
+    },
+    {
+      "id": 6,
+      "firstname": "charles",
+      "lastname": "leclerc",
+      "username": "chacha",
+      "email": "c.leclerc@monaco.fr",
+      "password": "123456",
+      "fonctionnalite": "vendeur"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "category": "Smartphone",
+      "description": "Dernier modèle de smartphone Apple offrant une expérience haut de gamme avec des fonctionnalités avancées. Profitez d'une performance exceptionnelle, d'un écran de qualité et d'un design élégant.",
+      "image": "../assets/images-produits/iphone-14.png",
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "stock": 999,
+      "price": 1099
+    },
+    {
+      "id": 2,
+      "category": "Ordinateur portable",
+      "description": "Le MacBook Pro est l'ordinateur portable phare d'Apple, conçu pour les professionnels exigeants. Avec sa puissance de traitement avancée, son écran Retina époustouflant et sa batterie longue durée, il répondra à tous vos besoins en matière de productivité.",
+      "image": "../assets/images-produits/macbook.jpg",
+      "name": "MacBook Pro",
+      "brand": "Apple",
+      "stock": 1299,
+      "price": 1999
+    },
+    {
+      "id": 3,
+      "category": "Tablette",
+      "description": "L'iPad Pro est une tablette professionnelle polyvalente offrant des performances exceptionnelles. Son écran Liquid Retina, sa compatibilité avec l'Apple Pencil et son puissant processeur en font l'outil idéal pour les créateurs et les utilisateurs exigeants.",
+      "image": "../assets/images-produits/ipad-pro.png",
+      "name": "iPad Pro",
+      "brand": "Apple",
+      "stock": 799,
+      "price": 529
+    },
+    {
+      "id": 4,
+      "category": "Smartphone",
+      "description": "Le Samsung Galaxy S21 est le dernier modèle de smartphone de la marque Samsung. Avec son design élégant, son appareil photo de haute qualité et ses performances exceptionnelles, il offre une expérience utilisateur avancée pour les amateurs de technologie.",
+      "image": "../assets/images-produits/s21_family_kv_mo_img.webp",
+      "name": "Samsung Galaxy S21",
+      "brand": "Samsung",
+      "stock": 899,
+      "price": 899
+    },
+    {
+      "id": 5,
+      "category": "Ordinateur portable",
+      "description": "Le HP Spectre x360 est un ordinateur portable polyvalent offrant une combinaison parfaite de puissance, de portabilité et de style. Avec son écran tactile, sa charnière à 360 degrés et ses performances exceptionnelles, il est idéal pour les professionnels et les créatifs.",
+      "image": "../assets/images-produits/hp-spectre-x360-16-2022-1.jpg",
+      "name": "HP Spectre x360",
+      "brand": "HP",
+      "stock": 599,
+      "price": 1299
+    },
+    {
+      "id": 6,
+      "category": "Carte Graphique",
+      "description": "Carte Graphique Nouvelle génération ",
+      "image": "../assets/images-produits/geforce-ada-4090-web-og-1200x630.jpg",
+      "name": "GeForce 4090 RTX",
+      "brand": "Nvidia",
+      "stock": 10,
+      "price": 1769
+    },
+    {
+      "id": 7,
+      "category": "Console",
+      "description": "Console de Jeu Nintendo ",
+      "image": "../assets/images-produits/nintendo-switch.png",
+      "name": "Nintendo Switch",
+      "brand": "Nintendo",
+      "stock": 20,
+      "price": 359.99
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "productId": 5
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 8
+    },
+    {
+      "userId": 6,
+      "productId": 1,
+      "id": 9
+    },
+    {
+      "userId": 6,
+      "productId": 4,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "productId": 2,
+      "id": 11
+    },
+    {
+      "userId": 6,
+      "productId": 3,
+      "id": 12
+    }
+  ],
+  "brand": [
+    {
+      "id": 0,
+      "name": "ALL"
+    },
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    },
+    {
+      "id": 3,
+      "name": "HP"
+    },
+    {
+      "id": 4,
+      "name": "Nvidia"
+    },
+    {
+      "id": 5,
+      "name": "Nintendo"
+    }
+  ],
+  "category": [
+    {
+      "id": 0,
+      "name": "ALL"
+    },
+    {
+      "id": 1,
+      "name": "Smartphone"
+    },
+    {
+      "id": 2,
+      "name": "Ordinateur portable"
+    },
+    {
+      "id": 3,
+      "name": "Tablette"
+    },
+    {
+      "id": 3,
+      "name": "Carte Graphique"
+    },
+    {
+      "id": 4,
+      "name": "Console"
+    }
+  ]
+}
